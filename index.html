@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>kalkulator</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head>
+
+<body>
+    <div id="main">
+        <div id="kalkulator">
+            <form name="form">
+                <div id="kepala-kal">
+                    <input lang="en" type="text" name="layar" id="layar" maxlength="10">
+                </div>
+                <div id="badan-kal">
+
+                    <ul>
+                        <li><input class="ac" type="button" value="AC" onclick="reset()"></li>
+                        <li><input class="button" type="button" value="√a" onclick="akar()"></li>
+                        <li><input style="font-size:25px;" class="button" type="button" value="Del" onclick="del()">
+                        </li>
+                        <li><input class="button" type="button" value="x" onclick="insert('*')"></li>
+                    </ul>
+                    <ul>
+                        <li><input class="button" type="button" value="7" onclick="insert(7)"></li>
+                        <li><input class="button" type="button" value="8" onclick="insert(8)"></li>
+                        <li><input class="button" type="button" value="9" onclick="insert(9)"></li>
+                        <li><input class="button" type="button" value="÷" onclick="insert('/')"></li>
+
+                    </ul>
+                    <ul>
+                        <li><input class="button" type="button" value="4" onclick="insert(4)"></li>
+                        <li><input class="button" type="button" value="5" onclick="insert(5)"></li>
+                        <li><input class="button" type="button" value="6" onclick="insert(6)"></li>
+                        <li><input class="button" type="button" value="-" onclick="insert('-')"></li>
+                    </ul>
+                    <ul>
+                        <li><input class="button" type="button" value="1" onclick="insert(1)"></li>
+                        <li><input class="button" type="button" value="2" onclick="insert(2)"></li>
+                        <li><input class="button" type="button" value="3" onclick="insert(3)"></li>
+                        <li><input class="button" type="button" value="+" onclick="insert('+')"></li>
+                    </ul>
+                    <ul style="padding-right:70px;">
+
+                        <li><input class="button" type="button" value="0" onclick="insert(0)"></li>
+                        <li><input class="button" type="button" value="." onclick="insert('.')"></li>
+                        <li><input style="width:130px;" class="button" type="button" value="=" onclick="equal()"></li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>

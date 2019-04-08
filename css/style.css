@@ -1,0 +1,123 @@
+@font-face{
+    font-family: "font digital";
+    src: url('./font/DS-DIGI.TTF')
+}
+
+#main {    
+    height: 100%;
+   
+}
+
+
+
+
+#kalkulator {  
+    width:350px ;
+    height: 570px;
+    background-color:#dcdde1;
+    display: block;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+   
+
+
+}
+
+#kepala-kal {
+    height: 100px;
+    width: 350px;
+    display: block;
+    background-color:#353b48;
+    border-radius: 12px 12px 0px 0px;
+    padding-top: 35px;
+    border: 10px #353b48;
+
+
+
+
+}
+#layar {
+    height: 60px;
+    display: block;
+    width: 290px;
+    margin-left: 24px;
+    margin-top: 0;
+    padding: 1px 3px;
+    background-color: #A2C6C2;
+    color: #353b48;
+    font-size: 60px;
+    font-family: "font digital";
+    border-style: solid;
+    border-color: #dadada;
+    border-width: 4px;
+    text-align: right;
+    
+    
+
+}
+
+#badan-kal{
+    display: block;
+    width: 350px;
+    height: 290px;
+    background-color: #dcdde1;
+    padding-top: 15px;
+    border-radius: 0 0 10px 10px;
+   
+    
+}
+#badan-kal ul{
+    display: block;
+    height: 45 px;
+    margin-left: auto;
+    margin-right:auto;
+
+   
+}
+
+#badan-kal ul li{
+    display: inline-block;
+    height: 55px;
+    width: 60px;   
+    color: #dcdde1;
+    margin: 2px;
+   
+}
+.button {
+    height: 55px;
+    width: 60px;
+    font-size: 28px;
+    color: #dcdde1;    
+    background-color:#353b48;
+    border: none;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.button:active{
+    background: #34495e;
+    
+}
+
+.ac {
+    height: 55px;
+    width: 60px;
+    font-size: 28px;
+    color: #dcdde1;    
+    background-color:#e74c3c;
+    border: none;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+.ac:active{
+    background-color:#c0392b;
+
+}
+
+
+
+    
